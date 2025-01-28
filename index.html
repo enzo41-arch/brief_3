@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestions des Produits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Liste des Produits</h1>
+
+<div class="controls">
+    <input
+            type="text"
+            id="searchInput"
+            placeholder="Rechercher un produit..."
+            autocomplete="off"
+    >
+    <button onclick="reinitialiser()">Réinitialiser</button>
+</div>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nom du produit</th>
+        <th>Prix</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody id="productList"></tbody>
+</table>
+
+<div id="total" class="total"></div>
+<script src="app.js"></script>
+</body>
+</html>
