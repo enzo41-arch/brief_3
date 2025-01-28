@@ -20,9 +20,9 @@
                         <button
                             onclick="supprimerProduit(${produit.id})"
                             class="delete"
-                            
-                        supprimer    
+                        
                         >
+                        supprimer
                         </button>
                     </td>
                 </tr>
